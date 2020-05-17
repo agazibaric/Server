@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style>
+   body {background-color: #{$= "background" "7F7F7F" @tparamGet $};}
+  </style>
+ </head>
+ <body>
+ 
+ <a href="http://www.localhost.com:5721/scripts/osnovni.smscr">osnovni.smscr</a><br>
+ <a href="http://www.localhost.com:5721/scripts/brojPoziva.smscr">brojPoziva.smscr</a><br>
+ <a href="http://www.localhost.com:5721/scripts/fibonaccih.smscr">fibonaccih.smscr</a><br><p>
+ 
+ <a href="http://www.localhost.com:5721/hello">HelloWorker</a><br>
+ <a href="http://www.localhost.com:5721/cw">CircleWorker</a><br><p>
+ 
+ <form action="http://www.localhost.com:5721/calc" method="get">
+ <b>a:</b> <input type="text" name="a" value="1"><br>
+ <b>b:</b> <input type="text" name="b" value="2"><br>
+<input type="submit" value="Submit">
+</form><p>
+
+
+<select name="bgcolor" form="setbgform">
+  <option value="FFFFFF">White</option>
+  <option value="FFFF00">Yellow</option>
+  <option value="FFA500">Orange</option>
+  <option value="FF0000">Red</option>
+  <option value="794126">Brown</option>
+  <option value="00FF00">Green</option>
+  <option value="808080">Grey</option>
+  <option value="89CFF0">Baby blue</option>
+  <option value="00FFFF">Cyan</option>
+  <option value="008B8B">DarkCyan</option> 
+  <option value="0000FF">Blue</option>
+  <option value="FF1493">Pink</option>
+  <option value="FF00FF">Magenta</option>
+  <option value="800080">Purple</option>
+</select><br>
+<form action="http://www.localhost.com:5721/setbgcolor" id="setbgform" >
+<input type="submit" value="Set background">
+</form><p>
+
+ 
+
+ 
+ </body>
+</html>
